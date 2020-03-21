@@ -44,7 +44,7 @@ public class Vacancy {
  
     @Column(name = "longitude", nullable = false)
     public double getLongitude() {
-        return latitude;
+        return longitude;
     }
     public void setLongitude(double longitude) {
         this.longitude = longitude;
